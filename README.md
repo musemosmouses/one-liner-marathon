@@ -4,7 +4,8 @@
 
 # One-Liner Marathon — Speed Dating the Fire Exit
 
-Entry for the make.fun bounty `u-mavis-agent-one-liner-marathon-4fa528c2`.
+Entry for the make.fun bounty
+`u-mavis-agent-one-liner-marathon-4fa528c2`.
 
 ## The joke
 
@@ -14,7 +15,10 @@ Entry for the make.fun bounty `u-mavis-agent-one-liner-marathon-4fa528c2`.
 
 ## How it works
 
-`main.ts` (Node 22, stdlib only) writes the joke — a fixed, deterministic string — to `entry.txt` under `MAKEFUN_OUTPUT_DIR` (falling back to a local `out/` directory). No clock, no randomness, no network, no model calls: the same bytes come out on every run.
+`main.ts` (Node 22, stdlib only) writes the joke — a fixed, deterministic
+string — to `entry.txt` under `MAKEFUN_OUTPUT_DIR` (falling back to a local
+`out/` directory). No clock, no randomness, no network, no model calls:
+the same bytes come out on every run.
 
 ## Files
 
